@@ -1,39 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>BIKH-Studios</title>
-  <style>
-    /* CSS Styles */
-    body {
-      text-align: center;
-      font-family: Arial, sans-serif;
-      background-color: #f5f5f5;
-      margin: 0;
-      padding: 0;
-    }
-    
-    .container {
-      background-color: #fff;
-      max-width: 600px;
-      margin: 150px auto;
-      padding: 30px;
-      border-radius: 10px;
-    }
-    
-    h1 {
-      font-size: 36px;
-    }
-    
-    p {
-      margin-top: 20px;
-      font-size: 18px;
-    }
-  </style>
+  <title>Photography Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <h1>BIKH-Studios</h1>
-    <p>The art of street photography</p>
-  </div>
+  <header>
+    <h1>Photography Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Welcome to My Photography Portfolio</h2>
+      <p>Explore the beauty captured through my lens.</p>
+    </div>
+  </section>
+  
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="photo-grid">
+      <!-- Add your photo thumbnails here -->
+      <img src="path/to/photo1.jpg" alt="Photo 1">
+      <img src="path/to/photo2.jpg" alt="Photo 2">
+      <img src="path/to/photo3.jpg" alt="Photo 3">
+      <!-- Add more photos as needed -->
+    </div>
+  </section>
+  
+  <section id="about">
+    <h2>About</h2>
+    <p>Introduce yourself and provide information about your photography style, experience, and any notable achievements.</p>
+  </section>
+  
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Include contact information, such as an email address or social media links, for potential clients or inquiries.</p>
+  </section>
+  
+  <footer>
+    <p>&copy; 2023 Photography Portfolio. All rights reserved.</p>
+  </footer>
 </body>
 </html>
