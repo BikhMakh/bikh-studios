@@ -9,11 +9,12 @@
       margin: 0;
       padding: 0;
       font-family: Arial, sans-serif;
+      background-color: #282b30;
+      color: #fff;
     }
     
     header {
-      background-color: #333;
-      color: #fff;
+      background-color: rgba(0, 0, 0, 0.8);
       padding: 20px;
       text-align: center;
     }
@@ -58,7 +59,18 @@
     }
     
     .hero-content {
-      color: #fff;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 40px;
     }
     
     .photo-grid {
@@ -72,11 +84,17 @@
     .photo-grid img {
       width: 100%;
       height: auto;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+    
+    .photo-grid img:hover {
+      transform: scale(1.05);
     }
     
     footer {
-      background-color: #333;
-      color: #fff;
+      background-color: rgba(0, 0, 0, 0.8);
       padding: 20px;
       text-align: center;
     }
@@ -123,4 +141,8 @@
     <p>Include contact information, such as an email address or social media links, for potential clients or inquiries.</p>
   </section>
   
-  <
+  <footer>
+    <p>&copy; 2023 Photography Portfolio. All rights reserved.</p>
+  </footer>
+</body>
+</html>
